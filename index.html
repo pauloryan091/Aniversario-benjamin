@@ -856,11 +856,11 @@
             const confirmBtn = document.getElementById('confirmBtn');
             
             // Número de WhatsApp para confirmações (ALTERE AQUI)
-            const whatsappNumber = "5561999999999"; // Substitua pelo número correto
+            const whatsappNumber = "+55 61 9367-0552"; // Substitua pelo número correto
             const confirmationMessage = encodeURIComponent("Olá! Confirmo minha presença no aniversário do Benjamin! 🎉 🏊‍♂️");
             
             // Atualizar link do WhatsApp
-            confirmBtn.href = `https://wa.me/${whatsappNumber}?text=${confirmationMessage}`;
+            confirmBtn.href = `https://api.whatsapp.com/send?phone=556193670552&text=Ol%C3%A1%21%20%F0%9F%91%8B%20Confirmo%20minha%20presen%C3%A7a%20no%20anivers%C3%A1rio%20do%20Benjamin%20%F0%9F%8E%82%F0%9F%8E%88%20Obrigado%28a%29%21`;
             
             // Remover loader após 2 segundos
             setTimeout(() => {
